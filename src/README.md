@@ -36,3 +36,40 @@ When the game starts, players place their ships in sequence on a 10x10 field.
 
 #### If you specify coordinate, which is used, a warning will be issued: ####
     Error! You placed it too close to another one. Try again:
+
+#### Coordinates of ship displayed on field as "O" ####
+      1 2 3 4 5 6 7 8 9 10 
+    A O O O O O ~ ~ ~ ~ ~
+    B ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+    C O O O O ~ ~ ~ ~ ~ ~
+    D ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+    E O O O ~ ~ ~ ~ ~ ~ ~
+    F ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+    G O O O ~ ~ ~ ~ ~ ~ ~
+    H ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+    I O O ~ ~ ~ ~ ~ ~ ~ ~
+    J ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+#### If you missed shot a ship, coordinate at field will display "M" ####
+      1 2 3 4 5 6 7 8 9 10
+    A O O O O O ~ ~ ~ ~ ~
+    B ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+    C O O O O ~ ~ ~ ~ ~ ~
+    D ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+    E O O O ~ ~ ~ ~ ~ ~ ~
+    F ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+    G O O O ~ ~ ~ ~ ~ ~ ~
+    H ~ ~ ~ ~ ~ M ~ ~ ~ ~
+    I O O ~ ~ ~ ~ ~ ~ ~ ~
+    J ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+#### If you hit a ship, coordinate at field will display "X" ####
+      1 2 3 4 5 6 7 8 9 10 
+    A X O O O O ~ ~ ~ ~ ~
+    B ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+    C O O O O ~ ~ ~ ~ ~ ~
+    D ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+    E O O O ~ ~ ~ ~ ~ ~ ~
+    F ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+    G O O O ~ ~ ~ ~ ~ ~ ~
+    H ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+    I O O ~ ~ ~ ~ ~ ~ ~ ~
+    J ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ 
